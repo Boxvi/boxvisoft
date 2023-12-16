@@ -1,0 +1,12 @@
+{
+  "codigo": "Code",
+  "hola": "Hello",
+  "ingles":"English",
+  "espanol":"Spanish",
+  "frances":"French",
+  "idioma": "Language",
+  "login": "Login",
+  "cedula": "ID",
+  "contrasenia": "Password",
+  "iniciarSesion": "Sign in"
+}
