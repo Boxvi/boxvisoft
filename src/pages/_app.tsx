@@ -2,7 +2,6 @@ import App, {AppProps} from 'next/app';
 import type {NextPage} from 'next';
 import type {ReactElement, ReactNode} from 'react';
 import '../styles/index.css';
-import '../styles/tailwind.css';
 
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
