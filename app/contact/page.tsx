@@ -6,10 +6,10 @@ import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Phone size={20} />,
-		href: "https://wa.me/593996474990?text=Hola%20Boris,%20%C2%BFc%C3%B3mo%20te%20encuentras%20el%20d%C3%ADa%20de%20hoy?",
-		label: "WhatsApp",
-		handle: "Boxvi Soft",
+		icon: <Wifi size={20} />,
+		href: "https://portafolio.boxvisoft.com",
+		label: "Portafolio",
+		handle: "portafolio.boxvisoft.com",
 	},
 	{
 		icon: <Mail size={20} />,
@@ -23,12 +23,7 @@ const socials = [
 		label: "Github",
 		handle: "Boxvi",
 	},
-	{
-		icon: <Wifi size={20} />,
-		href: "https://portafolio.boxvisoft.com",
-		label: "Portafolio",
-		handle: "portafolio.boxvisoft.com",
-	},
+
 ];
 
 export default function Example() {

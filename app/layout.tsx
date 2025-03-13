@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "https://www.boxvisoft.com/favicon.png",
+    shortcut: "/favicon.png",
   },
 };
 const inter = Inter({
