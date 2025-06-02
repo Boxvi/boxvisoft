@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "boxvisoft.com",
     images: [
       {
-        url: "https://www.boxvisoft.com/og.png",
+        url: "https://www.boxvisoft.com/og1.png",
         width: 1920,
         height: 1080,
       },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/favicon1.png",
   },
 };
 const inter = Inter({
