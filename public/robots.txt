@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://boxvisoft.com/sitemap.xml
+
+# Crawl delay (opcional)
+Crawl-delay: 1
