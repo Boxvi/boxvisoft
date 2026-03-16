@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Testimonios | BoxviSoft</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- Header -->
+    <div id="header"></div>
+
+    <section class="pt-32 pb-20">
+
+        <div class="max-w-7xl mx-auto px-4">
+
+            <div class="text-center mb-16">
+
+                <h1 class="text-4xl font-bold mb-4">Testimonios de Clientes</h1>
+
+                <p class="text-gray-600 text-lg">
+                    Clientes reales que confiaron en nuestros servicios
+                </p>
+
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- Testimonio -->
+
+                <div class="bg-white p-6 rounded-xl shadow">
+
+                    <div class="flex items-center mb-4">
+
+                        <img loading="lazy" src="https://randomuser.me/api/portraits/women/44.jpg"
+                            class="w-12 h-12 rounded-full mr-4">
+
+                        <div>
+
+                            <h4 class="font-bold">María González</h4>
+
+                            <div class="text-yellow-400">
+
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <p class="text-gray-600">
+
+                        Excelente trabajo con la instalación eléctrica de mi casa.
+                        Muy profesional y dejó todo funcionando perfecto.
+
+                    </p>
+
+                </div>
+
+                <!-- Testimonio -->
+
+                <div class="bg-white p-6 rounded-xl shadow">
+
+                    <div class="flex items-center mb-4">
+
+                        <img loading="lazy" src="https://randomuser.me/api/portraits/men/32.jpg"
+                            class="w-12 h-12 rounded-full mr-4">
+
+                        <div>
+
+                            <h4 class="font-bold">Carlos Rodríguez</h4>
+
+                            <div class="text-yellow-400">
+
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <p class="text-gray-600">
+
+                        Configuró toda la red de mi oficina y ahora el WiFi funciona perfecto.
+                        Muy recomendado.
+
+                    </p>
+
+                </div>
+
+                <!-- Testimonio -->
+
+                <div class="bg-white p-6 rounded-xl shadow">
+
+                    <div class="flex items-center mb-4">
+
+                        <img loading="lazy" src="https://randomuser.me/api/portraits/women/68.jpg"
+                            class="w-12 h-12 rounded-full mr-4">
+
+                        <div>
+
+                            <h4 class="font-bold">Laura Martínez</h4>
+
+                            <div class="text-yellow-400">
+
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <p class="text-gray-600">
+
+                        Me creó una página web profesional para mi negocio.
+                        Ahora recibo clientes por internet.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script>
+
+        fetch('/components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+
+        fetch('/components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+
+    </script>
+
+</body>
+
+</html>
