@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxviSoft | Servicios Profesionales de Electricidad, Redes y Desarrollo Web</title>
+    <meta name="description"
+        content="Expertos en electricidad residencial, configuración de redes y desarrollo web. Trabajo garantizado con acabados de calidad. Cotiza ahora sin compromiso.">
+    <meta name="keywords"
+        content="electricista profesional, instalaciones eléctricas, configuración red wifi, cables rj45, desarrollo web, páginas web profesionales">
+    <meta name="author" content="BoxviSoft">
+    <meta property="og:title" content="BoxviSoft - Servicios Técnicos Profesionales">
+    <meta property="og:description" content="Electricidad, Redes y Desarrollo Web con calidad garantizada">
+    <meta property="og:image" content="https://boxvisoft.com/images/hero/hero-principal.jpg">
+    <meta property="og:url" content="https://boxvisoft.com">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "LocalBusiness",
+ "name": "BoxviSoft",
+ "image": "https://boxvisoft.com/images/hero/hero-principal.jpg",
+ "url": "https://boxvisoft.com",
+ "telephone": "+593996474990",
+ "address": {
+   "@type": "PostalAddress",
+   "addressCountry": "EC"
+ },
+ "description": "Servicios profesionales de electricidad, redes y desarrollo web.",
+ "sameAs": [
+   "https://wa.me/593996474990"
+ ]
+}
+</script>
+
+</head>
+
+<a href="https://wa.me/593996474990"
+    class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg text-3xl z-50"
+    target="_blank">
+
+    <i class="fab fa-whatsapp"></i>
+
+</a>
+
+<body class="bg-gray-50 font-sans antialiased" x-data="{ mobileMenuOpen: false }">
+
+    <!-- Cargar el header dinámicamente -->
+    <div id="header"></div>
+
+    <!-- Hero Section con Video Background -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <!-- Video Background (opcional) -->
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-600/80 z-10"></div>
+            <img src="https://images.unsplash.com/photo-1581092921461-39b21f7d6c6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                alt="Background" class="w-full h-full object-cover">
+        </div>
+
+        <!-- Contenido Hero -->
+        <div class="relative z-20 text-center text-white px-4 max-w-7xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6" data-aos="fade-up">
+                Soluciones Técnicas <br><span class="text-yellow-400">Profesionales</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Electricidad de calidad • Redes optimizadas • Desarrollo Web
+            </p>
+            <p class="text-lg mb-12 max-w-2xl mx-auto opacity-90" data-aos="fade-up" data-aos-delay="200">
+                Más de 10 años de experiencia ofreciendo soluciones técnicas con garantía y acabados perfectos
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="300">
+                <a href="#servicios"
+                    class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-4 px-8 rounded-lg text-lg transition transform hover:scale-105">
+                    Ver Servicios
+                </a>
+                <a href="https://wa.me/593996474990?text=Hola%20vi%20tu%20sitio%20web%20y%20quiero%20cotizar%20un%20servicio"
+                    class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg inline-flex items-center justify-center transition transform hover:scale-105"
+                    target="_blank">
+                    <i class="fab fa-whatsapp mr-2 text-xl"></i>
+                    Cotizar Ahora
+                </a>
+            </div>
+
+            <!-- Estadísticas -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-yellow-400">500+</div>
+                    <div class="text-sm uppercase tracking-wider">Proyectos Completados</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-yellow-400">450+</div>
+                    <div class="text-sm uppercase tracking-wider">Clientes Satisfechos</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-yellow-400">10+</div>
+                    <div class="text-sm uppercase tracking-wider">Años de Experiencia</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-yellow-400">24/7</div>
+                    <div class="text-sm uppercase tracking-wider">Soporte Técnico</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
+            <a href="#servicios" class="text-white">
+                <i class="fas fa-chevron-down text-3xl"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Servicios Principales -->
+    <section id="servicios" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">Lo que ofrezco</span>
+                <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-4">Servicios Profesionales</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Soluciones especializadas con calidad garantizada y atención personalizada
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Electricidad Card -->
+                <div class="group bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+                    data-aos="fade-up">
+                    <div class="h-64 bg-gradient-to-r from-yellow-500 to-yellow-600 relative overflow-hidden">
+                        <i class="fas fa-bolt absolute text-8xl text-white/20 -right-4 -top-4 transform rotate-12"></i>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-bolt text-7xl text-white group-hover:scale-110 transition"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-2xl font-bold">Electricidad</h3>
+                            <span class="bg-green-100 text-green-600 text-sm px-3 py-1 rounded-full">Desde $10</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-600 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Tomacorrientes:</strong> Instalación con terminales de calidad y soldadura
+                                    de estaño</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Apagadores:</strong> Cambio de prendes/apagas, focos y luminarias</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Cableado:</strong> Instalación en canaleta, diagnóstico de cortos</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-star text-yellow-400 mt-1 mr-2"></i>
+                                <span><strong>Garantía:</strong> 6 meses en todos los trabajos</span>
+                            </li>
+                        </ul>
+                        <div class="flex gap-3">
+                            <a href="electricidad.html"
+                                class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-semibold transition">
+                                Ver detalles
+                            </a>
+                            <a href="https://wa.me/593996474990?text=Hola%20quiero%20cotizar%20un%20servicio%20de%20electricidad"
+                                class="bg-green-500 hover:bg-green-600 text-white p-3 rounded-lg transition"
+                                target="_blank">
+                                <i class="fab fa-whatsapp text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Redes Card -->
+                <div class="group bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-64 bg-gradient-to-r from-blue-500 to-blue-600 relative overflow-hidden">
+                        <i class="fas fa-wifi absolute text-8xl text-white/20 -right-4 -top-4 transform rotate-12"></i>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-wifi text-7xl text-white group-hover:scale-110 transition"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-2xl font-bold">Redes y WiFi</h3>
+                            <span class="bg-green-100 text-green-600 text-sm px-3 py-1 rounded-full">Desde $25</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-600 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Configuración:</strong> Routers, access points, repetidores</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Cableado:</strong> Ponchado de cables RJ45 UTP Cat5e y Cat6</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Enseñanza:</strong> Te explico cómo configurar todo tú mismo</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-star text-yellow-400 mt-1 mr-2"></i>
+                                <span><strong>Incluye:</strong> Puesta en LAN de todos tus dispositivos</span>
+                            </li>
+                        </ul>
+                        <div class="flex gap-3">
+                            <a href="redes.html"
+                                class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-semibold transition">
+                                Ver detalles
+                            </a>
+                            <a href="https://wa.me/593996474990?text=Hola%20quiero%20cotizar%20configuración%20de%20red"
+                                class="bg-green-500 hover:bg-green-600 text-white p-3 rounded-lg transition"
+                                target="_blank">
+                                <i class="fab fa-whatsapp text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desarrollo Web Card -->
+                <div class="group bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-64 bg-gradient-to-r from-purple-500 to-purple-600 relative overflow-hidden">
+                        <i class="fas fa-code absolute text-8xl text-white/20 -right-4 -top-4 transform rotate-12"></i>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-code text-7xl text-white group-hover:scale-110 transition"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-2xl font-bold">Desarrollo Web</h3>
+                            <span class="bg-green-100 text-green-600 text-sm px-3 py-1 rounded-full">Desde $150</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-600 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Páginas web:</strong> Profesionales, modernas y rápidas</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span><strong>SEO:</strong> Posicionamiento en Google incluido</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Responsive:</strong> Se ve perfecto en celular y computadora</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-star text-yellow-400 mt-1 mr-2"></i>
+                                <span><strong>Mantenimiento:</strong> Soporte y actualizaciones</span>
+                            </li>
+                        </ul>
+                        <div class="flex gap-3">
+                            <a href="desarrollo-web.html"
+                                class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-semibold transition">
+                                Ver detalles
+                            </a>
+                            <a href="https://wa.me/593996474990?text=Hola%20quiero%20una%20página%20web%20para%20mi%20negocio"
+                                class="bg-green-500 hover:bg-green-600 text-white p-3 rounded-lg transition"
+                                target="_blank">
+                                <i class="fab fa-whatsapp text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Beneficios -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">¿Por qué elegir mis servicios?</h2>
+                <p class="text-xl text-gray-600">Calidad, experiencia y compromiso en cada proyecto</p>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center" data-aos="fade-up">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-clock text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Llegada a tiempo</h3>
+                    <p class="text-gray-600">Puntualidad garantizada en todas mis visitas</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Trabajo garantizado</h3>
+                    <p class="text-gray-600">Todos mis trabajos tienen garantía por escrito</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-broom text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Limpieza total</h3>
+                    <p class="text-gray-600">Dejo todo limpio y ordenado al finalizar</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-chart-line text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Precios justos</h3>
+                    <p class="text-gray-600">Cotización sin costo y sin compromiso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-16">
+            <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">Testimonios</span>
+            <h2 class="text-4xl font-bold mt-2 mb-4">Lo que dicen mis clientes</h2>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-gray-50 p-6 rounded-xl" data-aos="fade-up">
+                <div class="flex items-center mb-4">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">María González</h4>
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">"Excelente trabajo con la instalación eléctrica de mi casa. Muy profesional, puntual y dejó todo impecable. Los tomacorrientes quedaron perfectos con sus terminales."</p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-xl" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex items-center mb-4">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">Carlos Rodríguez</h4>
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">"Me configuró toda la red de mi oficina y me enseñó cómo administrarla. Ahora tengo WiFi en todas partes y los cables RJ45 quedaron profesionales. 100% recomendado."</p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-xl" data-aos="fade-up" data-aos-delay="200">
+                <div class="flex items-center mb-4">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Cliente" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">Laura Martínez</h4>
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">"Necesitaba una página web para mi negocio y superó mis expectativas. Rápida, bonita y ya aparezco en Google. El soporte ha sido excelente."</p>
+            </div>
+        </div>
+    </div>
+</section> 
+
+    <!-- CTA WhatsApp -->
+    <section class="py-24 bg-gradient-to-r from-green-600 to-green-700 text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-4">¿Listo para comenzar tu proyecto?</h2>
+            <p class="text-xl mb-8 opacity-90">Cotiza sin compromiso y obtén presupuesto en menos de 15 minutos</p>
+            <a href="https://wa.me/593996474990"
+                class="inline-flex items-center bg-white text-green-600 font-bold py-4 px-10 rounded-lg text-xl hover:bg-gray-100 transition transform hover:scale-105"
+                target="_blank">
+                <i class="fab fa-whatsapp mr-3 text-2xl"></i>
+                Enviar WhatsApp Ahora
+            </a>
+            <p class="mt-4 text-sm opacity-75">Respuesta garantizada en menos de 1 hora</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer></script>
+    <script src="js/main.js"></script>
+    <script src="js/whatsapp.js"></script>
+    <script>
+        // Cargar header y footer
+        fetch('/components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+
+        fetch('/components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+
+    </script>
+</body>
+
+</html>
